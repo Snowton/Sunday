@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+div h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+span {
+    color: blue;
+}
+
+form {
+    text-align: left;
+    background-color: #00005c;
+    padding: 20px 5% 50px 200px;
+    color: aliceblue;
+}
+
+.outside {
+    background-image: url(cool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding: 50px;
+}
+
+.inside {
+    margin-top: 12vh;
+}
+
+.input {
+    padding: 10px;
+}
+
+.input label {
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.input div {
+    padding: 20px;
+}
+
+button {
+    background-color: #ffe8df;
+    border-color: #342ead;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    transition: color, background-color 0.5s;
+}
+
+button:hover {
+    background-color: #342ead;
+    color: aliceblue;
+}
+
+.orig {
+    width: 50%;
+    float: right;
+}
+
+.egg {
+    display: none;
+}
+
+.imgs:hover .orig {
+    display: none;
+}
+.imgs:hover .egg {
+    display: inline;
+    width: 50%;
+    float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    .imgs .orig, .imgs:hover .egg {
+        float: none;
+        width: 75%;
+        padding: 20px;
+    }
+}
+
+footer {
+    background-image: url(cool.jpg);
+    background-size: cover;
+    padding: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
